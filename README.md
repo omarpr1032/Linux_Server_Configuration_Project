@@ -30,12 +30,7 @@ This project consist on create a Linux virtual machine and configure it to host 
 - In optional section SSH key pair manager `Create New +` ssh key and download. it to your machine and move the private key on your `~/.ssh` folder.
 - Identify your instance.
 - Press the `Create instance` button.
-- Environment Information:
-	><b>Instance Name</b>: Ubuntu
-	
-	><b>Public IP</b>: 34.228.216.167
-	
-	><b>Private Key</b>: Not provided here 
+
 
 
 ## Access via SSH to the instance
@@ -179,6 +174,13 @@ To configure the UFW run the followings commands:
 - `sudo service apache2 reload` - Reload the apache server
 - `sudo a2ensite catalog` - Enable the virtual host
 - `sudo systemctl reload apache2` - Activate the new configuration
+
+# Resources
+- <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
+- https://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt/138442
+- https://www.linode.com/docs/web-servers/apache/apache-and-modwsgi-on-ubuntu-14-04-precise-pangolin/
+- Udacity Full Stack Web Developer -Deploying to Linux Servers
+
 
 # Contact
 For any questions please feel free to contact me at omarpr1032@gmail.com
